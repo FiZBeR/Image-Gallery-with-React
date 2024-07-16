@@ -1,0 +1,47 @@
+.principal {
+    max-width: 600px;
+    height: auto;
+    margin-top: 100px;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+h1 {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.imagen{
+    max-width: 500px;
+    height: auto;
+    transition: 1s;
+    &.loaded {
+        opacity: 1;
+    }
+}
+
+.section-like {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.section-move {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    margin-right: 5px;
+}
+
+.right {
+    margin-left: 5px;
+}
